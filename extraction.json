@@ -1,0 +1,32 @@
+{
+  "app": "dataset-explorer",
+  "mode": "profile",
+  "source": "Michaelhoang8/portfolio-lab",
+  "backend_definitions": {
+    "capabilities": [
+      "enrich",
+      "table"
+    ],
+    "data_apps": [
+      "numeric",
+      "parse",
+      "profile",
+      "safe_csv"
+    ],
+    "validation": [
+      "ConflictError",
+      "NotFoundError",
+      "ValidationError"
+    ],
+    "json_input": [
+      "decode",
+      "read_exact"
+    ],
+    "db": [
+      "SCHEMA",
+      "connect",
+      "initialize",
+      "rows"
+    ]
+  }
+}
