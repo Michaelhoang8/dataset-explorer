@@ -4,6 +4,8 @@ Inspect CSV quality, distributions, duplicate records, correlations, and outlier
 
 ![Dataset Explorer preview](docs/app.png)
 
+The column explorer keeps CSV input in a collapsible editor. Each selected column shows its nonmissing share, frequent-value counts as a share of all rows, and a min/median/max range for numeric columns. Full statistics, row preview, correlations, and exports remain available. Selection preserves keyboard focus; reduced-motion and the local motion preference disable transitions.
+
 ## Run
 
 Requires Python 3.11+; no third-party runtime dependencies. Clone this repository and run from its root:
